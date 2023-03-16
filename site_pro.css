@@ -20,7 +20,7 @@ iframe{
 }
 
 div.cover{
-    background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
+    background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover_site_pro.png) no-repeat center/cover;
     height: 360px;
     position: relative;
 }
@@ -167,7 +167,26 @@ div.vertical_bar{
 
 .col_portfolio{
     width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
 }
+
+.col_portfolio img{
+    margin-bottom: 20px;
+}
+
+a.link{
+    text-decoration: none;
+    color: var(--color1);
+    border: solid 2px var(--color1);
+    padding: 10px 20px 10px 20px;
+}
+
+a.link:hover{
+    color: black;
+    border: 2px solid black;
+}
+
 
 div.frame{
     margin: 30px 50px;
@@ -200,7 +219,7 @@ div.frame img{
 div.portfolio_header{
     height: 90px;
     background-color: black;
-    background: url(header.jpg) no-repeat center/cover;
+    background: url(cover_site_pro.png) no-repeat center/cover;
     position: relative;
 }
 
